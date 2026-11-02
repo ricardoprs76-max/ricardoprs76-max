@@ -13,20 +13,28 @@ plataformas web y apps Android.
 
 ---
 
-## ⭐ Proyecto destacado: Agentes IA para Empresas
+## ⭐ Proyecto destacado: Pago por Servicios Ambientales
 
-[![Demo del chat: respuesta con fuente, cálculo de un plazo procesal y un correo que espera aprobación](https://raw.githubusercontent.com/ricardoprs76-max/despacho-juridico/main/docs/demo.gif)](https://github.com/ricardoprs76-max/despacho-juridico)
+<table>
+  <tr>
+    <td><a href="https://github.com/ricardoprs76-max/pago-por-servicios-ambientales"><img src="https://raw.githubusercontent.com/ricardoprs76-max/pago-por-servicios-ambientales/main/screenshots/1-tablero.png" alt="Tablero de la plataforma: hectáreas, beneficiarios, inversión y pagos pendientes" width="100%"></a></td>
+    <td><a href="https://github.com/ricardoprs76-max/pago-por-servicios-ambientales"><img src="https://raw.githubusercontent.com/ricardoprs76-max/pago-por-servicios-ambientales/main/screenshots/4-mapa.png" alt="Mapa satelital con el polígono de un predio" width="100%"></a></td>
+  </tr>
+</table>
 
-Un motor de **asistentes virtuales en español para negocios**: se describe la empresa en un archivo y el
-mismo motor atiende a un despacho jurídico, una ferretería o una clínica.
+Plataforma web para gestionar programas de **Pagos por Servicios Ambientales (PSA)** de las autoridades
+ambientales. Nace de mi experiencia jurídica en estos programas: reemplaza las hojas de cálculo, carpetas y
+correos dispersos por un solo sistema que conecta la oficina con el trabajo de campo.
 
-- Responde **citando el documento** de la empresa de donde saca cada dato.
-- **Calcula plazos procesales colombianos** (CGP, festivos y vacancia judicial).
-- **Pide aprobación humana** antes de enviar un correo o registrar datos, y deja todo en un registro de auditoría.
-- Se conecta por **chat web, API, Claude Desktop (MCP) y n8n** (correo y WhatsApp).
-- Pruebas automáticas, tipado estricto, Docker e integración continua en GitHub.
+- **Convenios, beneficiarios, predios, acuerdos y pagos** con tablero, filtros y exportación a Excel/PDF.
+- **Mapa satelital** con polígonos de los predios, traslapes y cálculo de áreas (PostGIS).
+- **Alertas de calidad de datos**: áreas contradictorias, formatos inválidos y documentos vencidos.
+- **Expedientes** con versiones, vencimientos y listas de chequeo con porcentaje de completitud.
+- **Solicitudes con IA**: extrae los datos de un PDF, con revisión humana obligatoria, y redacta el borrador de respuesta.
+- **Calculadora de incentivo** (costo de oportunidad e IPC) y roles de usuario.
+- Recibe las visitas de la app de campo **[PSA Campo](https://github.com/ricardoprs76-max/psa-campo)**: GPS, fotos y firma, incluso sin señal.
 
-**Python · LangGraph · FastAPI · MCP · n8n · Docker** → [Ver el repositorio](https://github.com/ricardoprs76-max/despacho-juridico)
+**Next.js · TypeScript · PostgreSQL/PostGIS · MapLibre · Claude API · Render** → [Ver el repositorio](https://github.com/ricardoprs76-max/pago-por-servicios-ambientales)
 
 ---
 
@@ -39,17 +47,17 @@ mismo motor atiende a un despacho jurídico, una ferretería o una clínica.
 
 ## Proyectos
 
-### Inteligencia artificial y agentes
-| Proyecto | Qué resuelve | Tecnologías |
-|---|---|---|
-| [**Agentes IA para Empresas**](https://github.com/ricardoprs76-max/despacho-juridico) | Asistentes para negocios con fuentes, plazos legales y aprobación humana | Python, LangGraph, FastAPI, MCP, n8n |
-| [**Multiagentes**](https://github.com/ricardoprs76-max/multiagentes-senales) | 12 agentes de IA analizan el mercado en una sola llamada y avisan por push | Python, FastAPI, Kotlin, Firebase |
-
 ### Sector público y ambiental
 | Proyecto | Qué resuelve | Tecnologías |
 |---|---|---|
 | [**Proyecto PSA**](https://github.com/ricardoprs76-max/pago-por-servicios-ambientales) | Gestión de Pagos por Servicios Ambientales: predios, expedientes, mapas, IA y pagos | Next.js, TypeScript, PostGIS |
 | [**PSA Campo**](https://github.com/ricardoprs76-max/psa-campo) | Visitas de campo sin conexión: GPS, fotos, firma y sincronización | Flutter, Dart, SQLite |
+
+### Inteligencia artificial y agentes
+| Proyecto | Qué resuelve | Tecnologías |
+|---|---|---|
+| [**Agentes IA para Empresas**](https://github.com/ricardoprs76-max/despacho-juridico) | Asistentes para negocios con fuentes, plazos legales y aprobación humana | Python, LangGraph, FastAPI, MCP, n8n |
+| [**Multiagentes**](https://github.com/ricardoprs76-max/multiagentes-senales) | 12 agentes de IA analizan el mercado en una sola llamada y avisan por push | Python, FastAPI, Kotlin, Firebase |
 
 ### Apps Android
 | Proyecto | Qué resuelve | Tecnologías |
@@ -67,12 +75,12 @@ mismo motor atiende a un despacho jurídico, una ferretería o una clínica.
 
 <table>
   <tr>
-    <td><a href="https://github.com/ricardoprs76-max/pago-por-servicios-ambientales"><img src="https://raw.githubusercontent.com/ricardoprs76-max/pago-por-servicios-ambientales/main/screenshots/1-tablero.png" alt="Tablero del Proyecto PSA" width="100%"></a></td>
+    <td><a href="https://github.com/ricardoprs76-max/despacho-juridico"><img src="https://raw.githubusercontent.com/ricardoprs76-max/despacho-juridico/main/docs/demo.gif" alt="Demo del asistente del despacho jurídico" width="100%"></a></td>
     <td><a href="https://github.com/ricardoprs76-max/kapi"><img src="https://raw.githubusercontent.com/ricardoprs76-max/kapi/main/screenshots/2-inicio.png" alt="Pantalla de inicio de Kapi" width="100%"></a></td>
     <td><a href="https://github.com/ricardoprs76-max/multiagentes-senales"><img src="https://raw.githubusercontent.com/ricardoprs76-max/multiagentes-senales/main/screenshots/1-senales.png" alt="Señales de Multiagentes" width="100%"></a></td>
   </tr>
   <tr>
-    <td align="center">Proyecto PSA</td>
+    <td align="center">Despacho jurídico (agentes IA)</td>
     <td align="center">Kapi</td>
     <td align="center">Multiagentes</td>
   </tr>
